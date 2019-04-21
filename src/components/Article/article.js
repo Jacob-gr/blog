@@ -1,12 +1,12 @@
 import React from 'react'
 import {Link} from 'gatsby'
-import styles from  './article.module.scss'
+import styles from './article.module.scss'
 
 export default (props) => (
 
    <Link to={props.to}>
       <article className={styles.articleBox} key={props.id}>
-         <div className={styles.left}>
+         <div className={styles.imageSection}>
             <img src={'https://source.unsplash.com/150x150/?' + props.keywords} alt={props.title} />
          </div>
          <div className={styles.right}>

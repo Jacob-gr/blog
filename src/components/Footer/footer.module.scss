@@ -1,4 +1,4 @@
-@import '../styles/global';
+@import '../../styles/global';
 
 $footer-height: 100px;
 
@@ -6,13 +6,13 @@ $footer-height: 100px;
   background-color: $color-pallete-3;
   width: $container-width;
   height: $footer-height;
-  position: static;
+  position: absolute;
   bottom: 0;
   width: $container-width;
 
     .footer {
       margin: 0 auto;
-      max-width: $container-width;
+      max-width: $site-width;
       height: $footer-height;
       line-height: $footer-height;
       color: $color-pallete-4;

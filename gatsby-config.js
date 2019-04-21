@@ -6,7 +6,9 @@ module.exports = {
 
     plugins: [
         'gatsby-plugin-sass',
-        
+        'gatsby-transformer-remark',
+        'gatsby-plugin-eslint',
+
         {
             resolve: 'gatsby-source-filesystem',
             options: {
@@ -14,8 +16,5 @@ module.exports = {
                 path: `${__dirname}/src/markdown`,
             },
         },
-
-        'gatsby-transformer-remark'
-
     ]
 }

@@ -1,4 +1,4 @@
-@import '../styles/global';
+@import '../../styles/global';
 
 .container {
   max-width: $site-width;
@@ -44,19 +44,19 @@
 
   .button-github {
     @extend .button-icon;
-    background-image: url('../images/github.png');
+    background-image: url('../../images/github.png');
     
   }
 
   .button-twitter {
     @extend .button-icon;
-    background-image: url('../images/twitter.png');
+    background-image: url('../../images/twitter.png');
     margin-right: 0px;
   }
 
   .button-linkedin {
     @extend .button-icon;
-    background-image: url('../images/linkedin.png');
+    background-image: url('../../images/linkedin.png');
   }
 
   .link {

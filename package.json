@@ -22,6 +22,8 @@
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
+    "eslint-config-react-app": "^3.0.8",
+    "gatsby-plugin-eslint": "^2.0.4",
     "prettier": "^1.17.0"
   },
   "repository": {
