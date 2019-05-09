@@ -1,6 +1,6 @@
 ---
 title: "One GraphQL, many data sources"
-date: "2019-01-04"
+date: "2019-01-20"
 image: "https://source.unsplash.com/150x150/?graphql"
 keywords: "data"
 ---

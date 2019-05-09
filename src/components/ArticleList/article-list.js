@@ -18,7 +18,7 @@ export default () => (
                  title
                  image
                  keywords
-                 date(formatString: "MMMM YYYY")
+                 date(formatString: "D MMMM YYYY")
                }
                excerpt
              }
