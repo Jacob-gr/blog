@@ -9,7 +9,6 @@ export default (props) => (
       <article className={styles.articleBox} key={props.id}>
          <div className={styles.imageSection}>
             <Img fluid={props.image} />
-            {/* <img src={'https://source.unsplash.com/150x150/?computer'} alt={props.title} /> */}
          </div>
          <div className={styles.right}>
             <h3>
