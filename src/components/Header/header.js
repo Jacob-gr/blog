@@ -62,8 +62,8 @@ export default () => (
         <div className={styles.row}>
           <HomeButton to='/' text={data.site.siteMetadata.title} />
           <SocialButton site='github' username='evangeloper'></SocialButton>
-          <SocialButton site='linkedin' username='evangeloper'></SocialButton>
-          <SocialButton site='twitter' username='evangeloper'></SocialButton>
+          {/* <SocialButton site='linkedin' username='evangeloper'></SocialButton> */}
+          {/* <SocialButton site='twitter' username='evangeloper'></SocialButton> */}
         </div>
 
         <div className={styles.row}>

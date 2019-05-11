@@ -7,27 +7,30 @@ if (process.env.NODE_ENV !== 'production') {
 module.exports = {
 
     siteMetadata: {
-        title: 'Modern Gatsby blog',
+        title: 'Jacob\'s blog',
     },
 
     plugins: [
         'gatsby-plugin-sass',
         'gatsby-transformer-remark',
         'gatsby-plugin-eslint',
+        'gatsby-transformer-sharp',
+        'gatsby-plugin-sharp',
 
-        {
-            resolve: 'gatsby-source-filesystem',
-            options: {
-                name: 'files',
-                path: `${__dirname}/src/markdown`,
-            },
+        // {
+        //     resolve: 'gatsby-source-filesystem',
+        //     options: {
+        //         name: 'files',
+        //         path: `${__dirname}/src/markdown`,
+        //     },
 
-        },
+        // },
         {
             resolve: `gatsby-source-contentful`,
             options: {
                 spaceId: `ckcdkp2fp9b6`,
-                accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
+                accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+                downloadLocal: true,
             },
         },
         
