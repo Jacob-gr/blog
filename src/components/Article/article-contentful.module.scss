@@ -1,7 +1,7 @@
 @import '../../styles/global';
 
 .article-box {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   border-bottom: 1px dotted $color-pallete-6;
   display: inline-block;
   width: $container-width;
@@ -19,7 +19,7 @@
 
     .image-section {
 
-      @media screen and (max-width: 45rem) {
+      @media screen and (max-width: 25rem) {
         display: none;
       }
 
@@ -31,12 +31,12 @@
 
     .right {
 
-      @media screen and (max-width: 45rem) {
+      @media screen and (max-width: 25rem) {
         margin-left: 0px;
       }
 
-      margin-left: 150px;
-      padding: 15px;
+      margin-left: 160px;
+      padding: 0px;
       color: $color-pallete-3;
       margin-top: -20px;
 
