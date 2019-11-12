@@ -1,15 +1,19 @@
-import React from 'react'
-import Layout from '../components/Layout/layout'
-import Title from '../components/Title/title'
-import ArticleList from '../components/ArticleList/article-list-contentful'
+import React from "react"
+import Layout from "../components/Layout/layout"
+import Title from "../components/Title/title"
+import ArticleList from "../components/ArticleList/article-list-contentful"
 
 export default () => (
   <Layout>
-    <Title text='Welcome'/>
+    <Title text="Welcome" />
     <p>
-      Hello, my name is Jacob and I'm learning to create a Blog using GatsbyJS. The initial design of the blog is very basic, and it will evolve over time. Below you will find posts that I have made. Most of these posts will be about things I am working on or learning. I hope to cement my learning by writing about specific topics. 
+      Hello, my name is Jake and you have somehow found my project blog. This is
+      a personal blog for me to document on things I am learning or resources
+      which I find helpful. Additionally, I'll be using this blog to work on my
+      webdev and JavaScript skills. I should also strive to learn more about
+      design, but for the time being we are going for function over form on this
+      blog!
     </p>
     <ArticleList />
   </Layout>
 )
-
